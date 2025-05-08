@@ -27,8 +27,7 @@ df["PC2"] = X_pca[:, 1]
 # Streamlit Interface
 st.set_page_config(page_title="Disney Princess Clusters", layout="wide")
 
-st.title("Disney Princess Popularity Clustering")
-st.write("Princesses are grouped by **online influence metrics**: Instagram, Google Trends, and TikTok views.")
+st.title("Disney Princess Popularity Clustering Based on Online influance")
 
 # Cluster Summary
 st.subheader("Cluster Summary Table")
